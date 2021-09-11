@@ -21,23 +21,24 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/* the word horiseon, the seo in that word is a different color that the other letters*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/*the items in the header are set to the right*/
+.header div  {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*listing items horizontally?*/
 .header div ul {
     list-style-type: none;
 }
-
+/* */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -47,11 +48,11 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*all paragraphs font size*/
 p {
     font-size: 16px;
 }
-
+/* main image on page but not input as an image?*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,23 +61,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*image on articles indented 25px from the right or left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*imagin inside reputation section is placed to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*the main content on page is indented 20px from the left, inline block*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*aside bar*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,55 +88,55 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*image of lead generation*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*image of light bulb brand awareness*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*image of wheel and $ cost management*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*COULD WE TAKE ONLY ALL THE h3 AND MAKE THEM THEIR OWN AS ONE SELECTOR? RATHER THAN HAVE EACH LISTED WITH "benefit-lead,cost,brand"? combining the next three as one h3? lines 107-119, making 1 h3?*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*text above lightbult*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*text of cost management*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*text of lead generation*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*image of lightbulb*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*image of cost management*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*article settings for seo*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -144,7 +145,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*section settings for rep. management*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -153,7 +154,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*social media section settings*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,7 +163,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*max height for the next 3 images inside sections*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -174,7 +175,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/*setting of font for next 3 inside sections*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -189,14 +190,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*FOOTER*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*font size of the h2 in the footer only will be 20px*/
 .footer h2 {
     font-size: 20px;
 }
